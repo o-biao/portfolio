@@ -155,11 +155,12 @@ body{
     }
     
     .cabecalho__menu{
+        justify-content: space-between;
         gap:2%;
     }
 
     .cabecalho__menu__link{
-        font-size:0.8rem;
+        font-size:0.9rem;
     }
 
     .apresentacao{
