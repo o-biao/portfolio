@@ -154,9 +154,12 @@ body{
         padding: 5% 3% 0% 3%;
     }
     
+    .cabecalho__menu{
+        gap:2%;
+    }
 
     .cabecalho__menu__link{
-        font-size:0.5rem;
+        font-size:0.8rem;
     }
 
     .apresentacao{
