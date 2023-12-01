@@ -26,12 +26,12 @@ body{
 }
 
 .cabecalho{
-    padding: 3% 0% 0% 12%;
+    padding: 3% 0% 0% 3%;
 }
 
 .cabecalho__menu{
     display: flex;
-    gap: 5%;  
+    gap: 10%;  
 }
 
 .cabecalho__menu__link{
