@@ -26,7 +26,7 @@ body{
 }
 
 .cabecalho{
-    padding: 3% 0%;
+    padding: 3% 0% 0% 12% ;
 }
 
 .cabecalho__menu{
@@ -135,6 +135,24 @@ body{
         padding: 10%;
     }
     
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
+
+@media(max-width: 800px) {
+    .cabecalho{
+        padding: 3%;
+    }
     .cabecalho__menu{
         justify-content: center;
     }
